@@ -1,0 +1,1 @@
+# Nmap 7.01 scan initiated Fri Nov  6 17:14:08 2020 as: nmap -p 80 -Pn -iR 10000 -v -oA AllnetScanner/file.txt

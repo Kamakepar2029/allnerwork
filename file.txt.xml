@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.01 scan initiated Fri Nov  6 17:14:08 2020 as: nmap -p 80 -Pn -iR 10000 -v -oA AllnetScanner/file.txt -->
+<nmaprun scanner="nmap" args="nmap -p 80 -Pn -iR 10000 -v -oA AllnetScanner/file.txt" start="1604682848" startstr="Fri Nov  6 17:14:08 2020" version="7.01" xmloutputversion="1.04">
+<scaninfo type="syn" protocol="tcp" numservices="1" services="80"/>
+<verbose level="1"/>
+<debugging level="0"/>
+<taskbegin task="Parallel DNS resolution of 4096 hosts." time="1604682849"/>
