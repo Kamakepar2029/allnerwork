@@ -8,4 +8,5 @@ bot = telebot.TeleBot(TOKEN)
 
 bot.send_message(id,'Ending Workflow')
 resu = open("res.txt","r").open()
-bot.send_message(id,'Results of scan Saved at '+resu)
+bot.send_message(id,'Results of scan Saved: ')
+bot.send_message(id,resu)
