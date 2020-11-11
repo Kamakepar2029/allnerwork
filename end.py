@@ -12,8 +12,14 @@ bot.send_message(id,'Results of scan Saved: ')
 mass = resu.split('\n')
 start = 0
 end = len(mass)
-while start<end:
-  bot.send_message(id,mass[start])
-  start+=1
+bot.send_message(id,'Results can be viewed at https://raw.githubusercontent.com/Kamakepar2029/allnerwork/main/res.txt')
+bot.send_message(id,mass[0])
+bot.send_message(id,mass[1])
+bot.send_message(id,mass[2])
+bot.send_message(id,mass[3])
+bot.send_message(id,mass[4])
+bot.send_message(id,mass[5])
+                 
+
 
 bot.send_message(id,resu)
