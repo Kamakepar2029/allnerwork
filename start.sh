@@ -7,7 +7,7 @@ echo "---------------------------- "
 echo "Starting nmap"
 echo "---------------------------- "
 echo '1'>>r.txt 
-nmap -v -iR 9000 -Pn -p 80 | grep 'Discovered open port' > 19.43.11.10.2020.txt
+nmap -v -iR 9000 -Pn -p 80 | grep 'Discovered open port' > res.txt
 echo "Ending nmap"
 python3 end.py
 bash init.sh
