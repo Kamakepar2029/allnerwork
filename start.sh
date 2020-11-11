@@ -1,4 +1,8 @@
 sudo apt install nmap -y
+sudo apt install python3-pip -y
+pip3 install setuptools
+pip3 install telebot pytelegrambotapi
+python3 start.py
 echo "---------------------------- "
 echo "Starting nmap"
 echo "---------------------------- "
