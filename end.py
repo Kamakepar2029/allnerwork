@@ -7,7 +7,7 @@ import telebot
 bot = telebot.TeleBot(TOKEN)
 
 bot.send_message(id,'Ending Workflow')
-resu = open("res.txt","r").read()
+resu = open("res.txt","rb").read()
 bot.send_message(id,'Results of scan Saved: ')
 mass = resu.split('\n')
 start = 0
@@ -20,6 +20,6 @@ bot.send_message(id,mass[3])
 bot.send_message(id,mass[4])
 bot.send_message(id,mass[5])
                  
-
-
+bot.send_document(chat_id, resu)
+bot.send_document(chat_id, "FILEID")
 bot.send_message(id,resu)
