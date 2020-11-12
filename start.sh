@@ -9,7 +9,7 @@ echo "Starting nmap"
 echo "---------------------------- "
 echo '1'>>r.txt 
 #nmap -v -iR 9000 -Pn -p 80 | grep 'Discovered open port' > res.txt
-zmap -p 80 77.221.153.0/24 -B 1000M -o all.txt
+zmap -p 80 77.221.153.0/24 -B 1000M -o habr.txt
 nmap -sV -p 80 -v -n  --script http-title  -iL habr.txt > res.txt
 
 echo "Ending nmap"
