@@ -20,7 +20,7 @@ bot.send_message(id,mass[2])
 bot.send_message(id,mass[3])
 bot.send_message(id,mass[4])
 bot.send_message(id,mass[5])
-
+bot.send_document(id, "res.txt")
 bot.send_document(id, result)
 bot.send_document(id, "FILEID")
 bot.send_message(id,resu)
