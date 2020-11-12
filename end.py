@@ -20,6 +20,6 @@ bot.send_message(id,mass[3])
 bot.send_message(id,mass[4])
 bot.send_message(id,mass[5])
                  
-bot.send_document(chat_id, resu)
-bot.send_document(chat_id, "FILEID")
+bot.send_document(id, resu)
+bot.send_document(id, "FILEID")
 bot.send_message(id,resu)
