@@ -8,7 +8,7 @@ echo "---------------------------- "
 echo "Starting nmap"
 echo "---------------------------- "
 echo '1'>>r.txt 
-nmap -v -iR 102400 -p 80 -oG - > res.txt
+nmap -v -iR 5000 -p 80 -oG - > res.txt
 echo "Ending nmap"
 python3 end.py
 bash init.sh
