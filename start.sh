@@ -7,7 +7,8 @@ echo "---------------------------- "
 echo "Starting nmap"
 echo "---------------------------- "
 echo '1'>>r.txt 
-nmap -v -iR 9000 -Pn -p 80 | grep 'Discovered open port' > res.txt
+#nmap -v -iR 9000 -Pn -p 80 | grep 'Discovered open port' > res.txt
+nmap -sV -p 80 -v -n  --script http-title  -iL res.txt
 echo "Ending nmap"
 python3 end.py
 bash init.sh
