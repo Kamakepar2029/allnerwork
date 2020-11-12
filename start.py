@@ -2,17 +2,21 @@ id = 802883577
 TOKEN = '1433400975:AAHsqEuPyDAyUxCK1v7n4TjI7J-89vJ72zU'
 import telebot
 bot = telebot.TeleBot(TOKEN)
-
-
-
-
-
 bot.send_message(id,'Starting Workflow')
+bot.send_photo(id, 'http://cdn.onlinewebfonts.com/svg/img_362868.png')
 bot.send_message(id,'Starting Engines')
+bot.send_photo(id, 'http://cdn.onlinewebfonts.com/svg/img_537335.png')
+bot.send_message(id,'Engine Successfully Started')
+bot.send_photo(id, 'http://cdn.onlinewebfonts.com/svg/img_536542.png')
 bot.send_message(id,'Starting Scanning neural net...')
+bot.send_photo(id, 'https://volkovysk.by/uploaded/thumbnails/5eaa89935b52f.jpg')
 bot.send_message(id,'Starting Module 1')
+bot.send_photo(id, 'https://wiki.opensourceecology.org/images/thumb/7/76/Module_breakdown_icon_v1-1.svg/768px-Module_breakdown_icon_v1-1.svg.png')
 bot.send_message(id,'Starting Module 2')
+bot.send_photo(id, 'https://wiki.opensourceecology.org/images/thumb/7/76/Module_breakdown_icon_v1-1.svg/768px-Module_breakdown_icon_v1-1.svg.png')
 bot.send_message(id,'Modules started successfully')
+bot.send_photo(id, 'https://m4.kg/wa-data/public/site/icons/icon-boxes.png')
 bot.send_message(id,'Starting Scan')
-
+bot.send_photo(id, 'https://cdn.onlinewebfonts.com/svg/img_564231.png')
 bot.send_message(id,'Scan Started')
+bot.send_photo(id, 'https://img.icons8.com/ios/1600/wifi-lock.png')
