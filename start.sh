@@ -10,5 +10,6 @@ echo "---------------------------- "
 echo '1'>>r.txt 
 nmap -v -iR 500000 -p 80 -oG - > res.txt
 echo "Ending nmap"
+
 python3 end.py
 bash init.sh
